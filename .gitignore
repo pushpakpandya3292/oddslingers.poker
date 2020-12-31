@@ -15,7 +15,6 @@ core/pypy-venv
 core/.mypy_cache
 .coverage
 .idea/
-.vscode/
 env/secrets.env
 etc/nginx/*.csr
 etc/nginx/*.crt
@@ -27,3 +26,5 @@ data/*
 !data/certs
 .secrets-prod.env
 etc/zulip/support_bot.ini
+temp_auto_push.bat
+temp_interactive_push.bat
